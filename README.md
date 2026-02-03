@@ -85,9 +85,9 @@ Elle affiche les mesures courantes et l’horodatage.
 
 ## Captures / photos
 
-Ajouter les captures dans :
-![Montage](docs/screenshots/montage.jpg)
-![Iphone](docs/screenshots/mqttpanel.jpg)
+
+![Montage](/docs/screenshots/montage.jpg)
+![Iphone](/docs/screenshots/mqttpanel.jpg)
 
 
 
