@@ -86,7 +86,7 @@ Une page HTML simple est disponible :
 Elle affiche les mesures courantes et l’horodatage.
 
 ## Captures / photos
-![Serveur](/docs/screenshots/Serveur.png)
+![Serveur](/docs/screenshots/Serveur.jpg)
 ![Montage](/docs/screenshots/montage.jpg)
 ![Iphone](/docs/screenshots/mqttpanel.jpg)
 
