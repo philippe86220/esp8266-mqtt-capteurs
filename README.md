@@ -57,9 +57,8 @@ Les mesures sont publiées sur un **broker MQTT Mosquitto** et peuvent être vis
 Broker par défaut : `test.mosquitto.org` port `1883` (public, sans authentification).
 
 ### Topics publiés
-
-- `capteurs/temperature` : température en °C
-- `capteurs/humidite` : humidité en %
+- `capteurs/temperature` : température en °C mesurée par le BMP388
+- `capteurs/humidite` : humidité en % mesurée par le DHT22
 - `capteurs/pression` : pression en mbar (hPa)
 - `capteurs/altitude` : altitude en mètres (m)
 - `capteurs/luminosite` : valeur ADC brute (0..1023)
