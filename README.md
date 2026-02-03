@@ -81,12 +81,12 @@ Broker par défaut : `test.mosquitto.org` port `1883` (public, sans authentifica
 
 Une page HTML simple est disponible :
 - `http://<ip_esp8266>/`
-
+- elle peut être rafraîchie manuellement
+- 
 Elle affiche les mesures courantes et l’horodatage.
 
 ## Captures / photos
-
-
+![Serveur](/docs/screenshots/Serveur.png)
 ![Montage](/docs/screenshots/montage.jpg)
 ![Iphone](/docs/screenshots/mqttpanel.jpg)
 
