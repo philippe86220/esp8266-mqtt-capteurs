@@ -11,7 +11,9 @@ Les mesures sont publiées sur un **broker MQTT Mosquitto** et peuvent être vis
   - **LDR + résistance 10k** sur **A0** : luminosité (valeur ADC brute)
   - **PIR HC-SR501** : mémorise la date/heure du dernier mouvement détecté
 - Publication MQTT toutes les 1 s
-- Serveur HTTP local (page HTML) sur `http://<ip_esp8266>/`
+- Serveur HTTP local (page HTML) sur `http://<ip_esp8266>/`  
+  La page HTTP locale est une page d’état statique (non temps réel, mais pouvant être rafraîchie manuellement).  
+  Le temps réel est assuré via MQTT.
 - Synchronisation NTP + fuseau **Europe/Paris** avec gestion automatique **heure d’été / heure d’hiver**
 
 ## Matériel
