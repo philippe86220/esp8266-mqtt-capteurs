@@ -611,8 +611,6 @@ esp8266-mqtt-capteurs/
     └── screenshots/
 ```
 
-Le fichier réel `secrets.h` reste uniquement sur l'ordinateur et n'est jamais envoyé sur GitHub.
-
 ## Captures et photographies
 
 ![Serveur Web](docs/screenshots/Serveur.jpg)
