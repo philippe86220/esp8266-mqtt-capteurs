@@ -128,7 +128,7 @@ static void handleRoot() {
            "<html lang='fr-FR'>"
            "<head>"
            "<meta charset='UTF-8'>"
-           "<meta http-equiv='refresh' content='100'/>"
+           "<meta http-equiv='refresh' content='30'/>"
            "<title>Serveur Capteurs</title>"
            "<style>"
            "body{background-color:#FFFFFF;font-family:Arial,Helvetica,Sans-Serif;color:#000088;}"
