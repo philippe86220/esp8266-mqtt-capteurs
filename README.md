@@ -1,4 +1,11 @@
-# ESP8266 (D1 mini) — Capteurs, serveur Web et MQTT
+<h1 align="center">ESP8266 — Capteurs, serveur Web et MQTT</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Système-Debian%2013-A81D33?logo=debian&logoColor=white" alt="Debian 13">
+  <img src="https://img.shields.io/badge/Arduino%20IDE-1.8.19-00878F?logo=arduino&logoColor=white" alt="Arduino IDE 1.8.19">
+  <img src="https://img.shields.io/badge/Cœur%20ESP8266-3.1.2-E7352C" alt="ESP8266 3.1.2">
+  <img src="https://img.shields.io/badge/Carte-LOLIN(WEMOS)%20D1%20R2%20%26%20mini-2C3E50" alt="LOLIN(WEMOS) D1 R2 & mini">
+</p>
 
 ## Présentation
 
