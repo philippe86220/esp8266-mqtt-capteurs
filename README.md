@@ -28,8 +28,6 @@ Les mesures sont accessibles de deux manières :
 
 Ce dépôt me sert avant tout de **mémoire technique personnelle**, afin de retrouver facilement le programme, les bibliothèques nécessaires, les réglages de l'IDE Arduino et les commandes utiles sous Debian.
 
-> **Attention :** ne jamais publier le véritable mot de passe Wi-Fi dans un dépôt GitHub public. Le code déposé doit contenir uniquement des valeurs fictives ou utiliser un fichier local exclu de Git.
-
 ## Matériel utilisé
 
 - une carte **LOLIN(WEMOS) D1 R2 & mini**, ou clone WeMos D1 mini, équipée d'un ESP8266 ;
