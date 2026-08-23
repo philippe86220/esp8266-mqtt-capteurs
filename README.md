@@ -607,14 +607,12 @@ Un résultat contenant `1883 open` signifie que le port est accessible.
 ESP8266-capteurs-MQTT/
 ├── README.md
 ├── capteurs_mosquitto_sans_String.ino
-├── secrets.example.h
+└──  secrets.example.h
 ```
 
 Le fichier réel `secrets.h` reste uniquement sur l'ordinateur et n'est jamais envoyé sur GitHub.
 
 ## Captures et photographies
-
-Les chemins suivants reprennent les fichiers déjà présents dans le dépôt :
 
 ![Serveur Web](docs/screenshots/Serveur.jpg)
 
