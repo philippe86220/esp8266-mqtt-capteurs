@@ -247,13 +247,7 @@ Dans le programme principal :
 #define password WIFI_PASSWORD
 ```
 
-Ajouter ensuite dans `.gitignore` :
-
-```gitignore
-secrets.h
-```
-
-Un fichier public `secrets.example.h`, contenant uniquement des valeurs fictives, pourra montrer la structure attendue.
+Un fichier public `secrets.example.h`, contenant uniquement des valeurs fictives, montre la structure attendue.
 
 ## Configuration MQTT
 
