@@ -227,7 +227,7 @@ Le programme d'origine contenait deux constantes semblables à celles-ci :
 #define password "MOT_DE_PASSE_WIFI"
 ```
 
-Avant de publier un tel programme sur GitHub, remplacez impérativement les informations réelles par ces valeurs fictives.
+Avant de publier un tel programme sur GitHub,pensez à remplacer impérativement les informations réelles par ces valeurs fictives.
 
 j'ai désormais adopté une solution plus propre qui consiste à créer un fichier local `secrets.h` :
 
