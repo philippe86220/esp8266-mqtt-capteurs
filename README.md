@@ -604,10 +604,12 @@ Un résultat contenant `1883 open` signifie que le port est accessible.
 ## Structure conseillée du dépôt
 
 ```text
-ESP8266-capteurs-MQTT/
+esp8266-mqtt-capteurs/
 ├── README.md
-├── capteurs_mosquitto_sans_String.ino
-└── secrets.example.h
+├── capteurs_mqtt.ino
+├── secrets.example.h
+└── docs/
+    └── screenshots/
 ```
 
 Le fichier réel `secrets.h` reste uniquement sur l'ordinateur et n'est jamais envoyé sur GitHub.
