@@ -22,7 +22,7 @@ const unsigned long periodMs = 1000;
 
 
 // -------------------- MQTT --------------------
-const char* mqtt_server = "test.mosquitto.org";
+const char* mqtt_server = "test.mosquitto.org"; // broker.emqx.io
 const int   mqtt_port   = 1883;
 
 WiFiClient espClient;
@@ -128,7 +128,7 @@ static void handleRoot() {
            "<html lang='fr-FR'>"
            "<head>"
            "<meta charset='UTF-8'>"
-           "<meta http-equiv='refresh' content='30'/>"
+           "<meta http-equiv='refresh' content='2'/>"
            "<title>Serveur Capteurs</title>"
            "<style>"
            "body{background-color:#FFFFFF;font-family:Arial,Helvetica,Sans-Serif;color:#000088;}"
