@@ -220,7 +220,7 @@ Il ne faut pas utiliser `sudo chmod 777 /dev/ttyUSB0` : cette permission serait 
 
 ## Configuration Wi-Fi
 
-Le programme d'origine contient deux constantes semblables à celles-ci :
+Le programme d'origine contenait deux constantes semblables à celles-ci :
 
 ```cpp
 #define ssid     "NOM_DU_RESEAU_WIFI"
@@ -229,7 +229,7 @@ Le programme d'origine contient deux constantes semblables à celles-ci :
 
 Avant de publier le programme sur GitHub, remplacer impérativement les informations réelles par ces valeurs fictives.
 
-Une solution plus propre consiste à créer un fichier local `secrets.h` :
+j'ai désormais adopté une solution plus propre qui consiste à créer un fichier local `secrets.h` :
 
 ```cpp
 #pragma once
