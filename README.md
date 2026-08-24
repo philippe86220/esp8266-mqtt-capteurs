@@ -138,35 +138,48 @@ Outils → Type de carte → esp8266 → LOLIN(WEMOS) D1 R2 & mini
 
 ### Bibliothèques à installer
 
-Ouvrir le gestionnaire de bibliothèques :
+Dans l’IDE Arduino, ouvrir :
 
 ```text
 Croquis → Inclure une bibliothèque → Gérer les bibliothèques
 ```
+Rechercher puis installer les trois bibliothèques suivantes :  
 
-Rechercher et installer les bibliothèques suivantes :
+| Nom dans le gestionnaire    | Auteur       | Fichier inclus dans le programme |
+| --------------------------- | ------------ | -------------------------------- |
+| **PubSubClient**            | Nick O’Leary | `PubSubClient.h`                 |
+| **DHT sensor library**      | Adafruit     | `DHT.h`                          |
+| **Adafruit BMP3XX Library** | Adafruit     | `Adafruit_BMP3XX.h`              |
 
-| Nom à rechercher | Auteur | Utilisation |
-|---|---|---|
-| **PubSubClient** | Nick O'Leary | Connexion et publications MQTT |
-| **DHT sensor library** | Adafruit | Lecture du DHT22 |
-| **Adafruit BMP3XX Library** | Adafruit | Lecture du BMP388 |
-| **Adafruit Unified Sensor** | Adafruit | Dépendance des capteurs Adafruit |
-| **Adafruit BusIO** | Adafruit | Dépendance éventuellement proposée automatiquement |
+Lors de l’installation des bibliothèques Adafruit, l’IDE peut proposer  
+d’installer également leurs dépendances, notamment :
 
-Lorsque l'IDE propose d'installer automatiquement les dépendances d'une bibliothèque Adafruit, accepter leur installation.
+- **Adafruit Unified Sensor**, qui fournit Adafruit_Sensor.h ;
+- **Adafruit BusIO**.
 
-### Bibliothèques déjà fournies
+Dans ce cas, accepter l’installation de toutes les dépendances proposées.  
+Il n’est normalement pas nécessaire de rechercher ces deux bibliothèques  
+séparément.
 
-Il ne faut pas rechercher séparément les éléments suivants dans le gestionnaire :
+### Éléments déjà fournis
 
-- `Wire` : communication I²C ;
-- `SPI` : communication SPI ;
-- `time.h` : date et heure ;
-- `WiFiClient` : connexion TCP ;
-- `ESP8266WebServer` : serveur HTTP.
+Les éléments suivants sont déjà fournis par l’IDE Arduino ou par le cœur  
+**ESP8266 by ESP8266 Community** :
 
-Ils sont fournis par l'IDE Arduino ou par le cœur **ESP8266 by ESP8266 Community** installé précédemment.
+| Élément              | Utilisation                      |
+| -------------------- | -------------------------------- |
+| `ESP8266WebServer.h` | serveur HTTP                     |
+| `WiFiClient`         | connexion réseau TCP             |
+| `Wire.h`             | communication I²C                |
+| `SPI.h`              | communication SPI                |
+| `time.h`             | gestion de la date et de l’heure |
+
+Ils ne doivent donc pas être installés séparément depuis le gestionnaire  
+de bibliothèques.  
+
+Enfin, `secrets.h` n’est pas une bibliothèque : c’est un fichier personnel  
+du projet contenant les identifiants Wi-Fi et qui ne doit pas être publié  
+sur GitHub.  
 
 ## Autoriser l'accès au port série sous Debian
 
