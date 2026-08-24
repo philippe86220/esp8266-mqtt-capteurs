@@ -637,3 +637,8 @@ Projet personnel destiné à l'apprentissage de l'ESP8266, des capteurs, du prot
 ## Licence
 
 MIT
+
+## Remerciements
+
+Ce projet a été développé, testé et documenté par Philippe Costes, avec l’aide de ChatGPT (OpenAI) pour l’analyse du code, le dépannage et la rédaction de la documentation.
+
