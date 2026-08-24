@@ -143,6 +143,10 @@ Installer depuis le gestionnaire de bibliothèques de l’IDE Arduino :
 
 Lorsque l’IDE le propose, accepter l’installation automatique des dépendances.
 
+`ESP8266WebServer.h`, les fonctions Wi-Fi et les fonctions de gestion du temps  
+sont déjà fournies par l’environnement ESP8266 installé depuis le gestionnaire  
+de cartes. Aucune installation supplémentaire n’est nécessaire.  
+
 ## Autoriser l'accès au port série sous Debian
 
 La carte apparaît généralement sous la forme :
