@@ -147,6 +147,10 @@ Lorsque l’IDE le propose, accepter l’installation automatique des dépendanc
 sont déjà fournies par l’environnement ESP8266 installé depuis le gestionnaire  
 de cartes. Aucune installation supplémentaire n’est nécessaire.  
 
+Enfin, `secrets.h` n’est pas une bibliothèque : c’est un fichier personnel  
+du projet contenant les identifiants Wi-Fi et qui ne doit pas être publié  
+sur GitHub.  
+
 ## Autoriser l'accès au port série sous Debian
 
 La carte apparaît généralement sous la forme :
