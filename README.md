@@ -422,13 +422,6 @@ La fonction `formatDateTime()` produit une date sous cette forme :
 23-08-2026  15:42:07
 ```
 
-Pour éviter un avertissement du compilateur concernant la taille potentielle de la date, les tableaux peuvent être portés à 32 caractères :
-
-```cpp
-char Maintenant[32];
-char DatePir[32];
-```
-
 ### 6. Publication MQTT
 
 La fonction `publishMQTT()` convertit les nombres en tableaux de caractères :
