@@ -133,53 +133,15 @@ Sélectionner enfin :
 ```text
 Outils → Type de carte → esp8266 → LOLIN(WEMOS) D1 R2 & mini
 ```
+## Bibliothèques
 
-## Bibliothèques nécessaires
+Installer depuis le gestionnaire de bibliothèques de l’IDE Arduino :
 
-### Bibliothèques à installer
+- **PubSubClient** par Nick O’Leary ;
+- **DHT sensor library** par Adafruit ;
+- **Adafruit BMP3XX Library** par Adafruit.
 
-Dans l’IDE Arduino, ouvrir :
-
-```text
-Croquis → Inclure une bibliothèque → Gérer les bibliothèques
-```
-Rechercher puis installer les trois bibliothèques suivantes :  
-
-| Nom dans le gestionnaire    | Auteur       | Fichier inclus dans le programme |
-| --------------------------- | ------------ | -------------------------------- |
-| **PubSubClient**            | Nick O’Leary | `PubSubClient.h`                 |
-| **DHT sensor library**      | Adafruit     | `DHT.h`                          |
-| **Adafruit BMP3XX Library** | Adafruit     | `Adafruit_BMP3XX.h`              |
-
-Lors de l’installation des bibliothèques Adafruit, l’IDE peut proposer  
-d’installer également leurs dépendances, notamment :
-
-- **Adafruit Unified Sensor**, qui fournit Adafruit_Sensor.h ;
-- **Adafruit BusIO**.
-
-Dans ce cas, accepter l’installation de toutes les dépendances proposées.  
-Il n’est normalement pas nécessaire de rechercher ces deux bibliothèques  
-séparément.
-
-### Éléments déjà fournis
-
-Les éléments suivants sont déjà fournis par l’IDE Arduino ou par le cœur  
-**ESP8266 by ESP8266 Community** :
-
-| Élément              | Utilisation                      |
-| -------------------- | -------------------------------- |
-| `ESP8266WebServer.h` | serveur HTTP                     |
-| `WiFiClient`         | connexion réseau TCP             |
-| `Wire.h`             | communication I²C                |
-| `SPI.h`              | communication SPI                |
-| `time.h`             | gestion de la date et de l’heure |
-
-Ils ne doivent donc pas être installés séparément depuis le gestionnaire  
-de bibliothèques.  
-
-Enfin, `secrets.h` n’est pas une bibliothèque : c’est un fichier personnel  
-du projet contenant les identifiants Wi-Fi et qui ne doit pas être publié  
-sur GitHub.  
+Lorsque l’IDE le propose, accepter l’installation automatique des dépendances.
 
 ## Autoriser l'accès au port série sous Debian
 
