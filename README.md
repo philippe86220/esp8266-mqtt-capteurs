@@ -89,7 +89,7 @@ GND = GND
 
 Le HC-SR501 a généralement besoin de quelques secondes de stabilisation après sa mise sous tension.
 
-L'ESP8266 fonctionne avec une logique de **3,3 V**. L'alimentation 5 V indiquée concerne le module HC-SR501 ; sa sortie `OUT` doit rester compatible avec l'entrée de l'ESP8266.
+Le module HC-SR501 est alimenté en **5 V**, mais sa sortie `OUT` délivre normalement un signal logique d’environ **3,3 V**, compatible avec l’entrée D6/GPIO12 de l’ESP8266. Les masses `GND` des deux éléments doivent être reliées.
 
 ## Environnement logiciel utilisé
 
